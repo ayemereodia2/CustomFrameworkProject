@@ -11,6 +11,7 @@ import CustomFramework
 @main
 struct CustomFrameworkProjectApp: App {
     init() {
+        SDK.configure(apiKey: "privateKey123")
         SDK.doSomeWork()
     }
     
